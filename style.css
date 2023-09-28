@@ -19,3 +19,6 @@ header {
   width: 100%;
   position: sticky;
 }
+.btn {
+  font-family: "Raleway", sans-serif;
+}
