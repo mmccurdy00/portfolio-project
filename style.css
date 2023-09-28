@@ -2,6 +2,7 @@ h1 {
   color: gray;
   font-family: "Fuggles", cursive;
   text-align: center;
+  font-size: 85px;
 }
 h2,
 h3,
@@ -11,4 +12,10 @@ h6 {
   color: gray;
   font-family: "Raleway", sans-serif;
   text-align: center;
+}
+header {
+  background: white;
+  top: 0;
+  width: 100%;
+  position: sticky;
 }
