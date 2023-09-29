@@ -20,5 +20,16 @@ header {
   position: sticky;
 }
 .btn {
-  font-family: "Raleway", sans-serif;
+  background: blueviolet;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  padding: 15px 30px;
+  border: 1px solid gray;
+}
+footer {
+  padding: 50px;
+}
+.tidbit {
+  padding: 25px;
 }
