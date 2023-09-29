@@ -20,16 +20,24 @@ header {
   position: sticky;
 }
 .btn {
-  background: blueviolet;
+  background: grey;
   border-radius: 4px;
   color: white;
   font-size: 18px;
   padding: 15px 30px;
   border: 1px solid gray;
+  transition: gray 0.5s ease, black 0.5s ease;
+}
+.btn:hover {
+  background: black;
+  color: white;
 }
 footer {
   padding: 50px;
 }
 .tidbit {
   padding: 25px;
+}
+i {
+  padding: 10px;
 }
