@@ -15,6 +15,10 @@ header {
   width: 100%;
   position: sticky;
 }
+p {
+  color: #aaaaaa;
+  font-family: "Raleway", sans-serif;
+}
 .btn {
   background: #aaaaaa;
   border-radius: 4px;
@@ -48,4 +52,23 @@ h6 {
   text-align: center;
   font-family: "Raleway", sans-serif;
   padding-bottom: 10px;
+}
+@media (max-width: 900px) {
+  body {
+    text-align: center;
+  }
+  img {
+    display: block;
+  }
+  .btn {
+    display: block;
+    margin: 0 auto;
+  }
+}
+a {
+  text-decoration: none;
+  color: #121212;
+}
+img {
+  max-height: 600px;
 }
