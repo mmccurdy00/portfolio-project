@@ -1,36 +1,32 @@
 h1 {
-  color: gray;
+  color: #bdbdbd;
   font-family: "Fuggles", cursive;
   text-align: center;
   font-size: 85px;
 }
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: gray;
+h2 {
+  color: #121212;
   font-family: "Raleway", sans-serif;
   text-align: center;
 }
 header {
-  background: white;
+  background: linear-gradient(#aaaaaa, #080808);
   top: 0;
   width: 100%;
   position: sticky;
 }
 .btn {
-  background: grey;
+  background: #aaaaaa;
   border-radius: 4px;
   color: white;
   font-size: 18px;
   padding: 15px 30px;
-  border: 1px solid gray;
-  transition: gray 0.5s ease, black 0.5s ease;
+  border: 1px solid #aaaaaa;
+  transition: #aaaaaa 0.5s ease, #080808 0.5s ease;
 }
 .btn:hover {
-  background: black;
-  color: white;
+  background: #080808;
+  color: #f2f2f2;
 }
 footer {
   padding: 50px;
@@ -40,4 +36,16 @@ footer {
 }
 i {
   padding: 10px;
+}
+body {
+  background: #f2f2f2;
+}
+.navigation-bar {
+  background-color: #d2d2d2 !important;
+}
+h6 {
+  color: #121212;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  padding-bottom: 10px;
 }
